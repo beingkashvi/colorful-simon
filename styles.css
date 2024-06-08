@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Play';
+  font-size: 4rem;
+  margin:  5%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  color: #FEF2BF;
+}
+h2{
+  font-family: 'Play';
+  font-size: 2rem;
+  margin:  5%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #91B187;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+#purple {
+  background-color: #7F58AF;
+}
+
+#blue {
+  background-color: #64C5EB;
+}
+
+#red {
+  background-color: #E84D8A;
+}
+
+#yellow {
+  background-color: #FEB326;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
